@@ -5,7 +5,7 @@ services:
         environment:
             DISK_SIZE: "16G"
         devices:
-            - /dev/kvm
+            - /dev/kvm=N
             - /dev/net/tun
         cap_add:
             - NET_ADMIN
